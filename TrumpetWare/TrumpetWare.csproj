@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alta _de_productos.cs">
+    <Compile Include="Catalogos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Alta _de_productos.Designer.cs">
-      <DependentUpon>Alta _de_productos.cs</DependentUpon>
+    <Compile Include="Catalogos.Designer.cs">
+      <DependentUpon>Catalogos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Embajadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Embajadores.Designer.cs">
+      <DependentUpon>Embajadores.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -60,6 +72,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="TrumpetWareDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,8 +87,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TrumpetWareDataSet1.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Alta _de_productos.resx">
-      <DependentUpon>Alta _de_productos.cs</DependentUpon>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Catalogos.resx">
+      <DependentUpon>Catalogos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Embajadores.resx">
+      <DependentUpon>Embajadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -84,16 +113,15 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
     <None Include="TrumpetWareDataSet.xsc">
       <DependentUpon>TrumpetWareDataSet.xsd</DependentUpon>
     </None>
@@ -119,6 +147,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 17 jul 2025, 09_42_11 a.m..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot - 17_07_2025 , 10_02_07 a_ m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trummpettt.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

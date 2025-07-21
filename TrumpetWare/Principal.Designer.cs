@@ -28,144 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.altaDeProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.productoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bajaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.productoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.embajadorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.altaDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bajaDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultasToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.lblUser = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnIngresar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // pictureBox1
             // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.pictureBox1.Image = global::TrumpetWare.Properties.Resources.Screenshot___17_07_2025___10_02_07_a__m;
+            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(336, 506);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // menuToolStripMenuItem
+            // txtPassword
             // 
-            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.altaDeProductoToolStripMenuItem,
-            this.bajaDeToolStripMenuItem,
-            this.consultasToolStripMenuItem,
-            this.salirToolStripMenuItem});
-            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
-            this.menuToolStripMenuItem.Text = "Menu...";
+            this.txtPassword.Location = new System.Drawing.Point(224, 406);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(100, 20);
+            this.txtPassword.TabIndex = 4;
             // 
-            // altaDeProductoToolStripMenuItem
+            // txtUsuario
             // 
-            this.altaDeProductoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productoToolStripMenuItem,
-            this.consultasToolStripMenuItem1});
-            this.altaDeProductoToolStripMenuItem.Name = "altaDeProductoToolStripMenuItem";
-            this.altaDeProductoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.altaDeProductoToolStripMenuItem.Text = "Productos";
+            this.txtUsuario.Location = new System.Drawing.Point(224, 380);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuario.TabIndex = 3;
             // 
-            // productoToolStripMenuItem
+            // lblUser
             // 
-            this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            this.productoToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.productoToolStripMenuItem.Text = "Alta y baja de productos";
-            this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
+            this.lblUser.AutoSize = true;
+            this.lblUser.Location = new System.Drawing.Point(156, 383);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(46, 13);
+            this.lblUser.TabIndex = 1;
+            this.lblUser.Text = "Usuario:";
             // 
-            // consultasToolStripMenuItem1
+            // label2
             // 
-            this.consultasToolStripMenuItem1.Name = "consultasToolStripMenuItem1";
-            this.consultasToolStripMenuItem1.Size = new System.Drawing.Size(207, 26);
-            this.consultasToolStripMenuItem1.Text = "Consultas";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(156, 409);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Contraseña:";
             // 
-            // bajaDeToolStripMenuItem
+            // btnIngresar
             // 
-            this.bajaDeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productoToolStripMenuItem1,
-            this.embajadorToolStripMenuItem1,
-            this.consultasToolStripMenuItem2});
-            this.bajaDeToolStripMenuItem.Name = "bajaDeToolStripMenuItem";
-            this.bajaDeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.bajaDeToolStripMenuItem.Text = "Embajador";
-            // 
-            // productoToolStripMenuItem1
-            // 
-            this.productoToolStripMenuItem1.Name = "productoToolStripMenuItem1";
-            this.productoToolStripMenuItem1.Size = new System.Drawing.Size(219, 26);
-            this.productoToolStripMenuItem1.Text = "Alta de embajador";
-            // 
-            // embajadorToolStripMenuItem1
-            // 
-            this.embajadorToolStripMenuItem1.Name = "embajadorToolStripMenuItem1";
-            this.embajadorToolStripMenuItem1.Size = new System.Drawing.Size(219, 26);
-            this.embajadorToolStripMenuItem1.Text = "Baja de embajador";
-            // 
-            // consultasToolStripMenuItem2
-            // 
-            this.consultasToolStripMenuItem2.Name = "consultasToolStripMenuItem2";
-            this.consultasToolStripMenuItem2.Size = new System.Drawing.Size(219, 26);
-            this.consultasToolStripMenuItem2.Text = "Consultas";
-            // 
-            // consultasToolStripMenuItem
-            // 
-            this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.altaDeClientesToolStripMenuItem,
-            this.bajaDeClientesToolStripMenuItem,
-            this.consultasToolStripMenuItem3});
-            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.consultasToolStripMenuItem.Text = "Clientes";
-            // 
-            // altaDeClientesToolStripMenuItem
-            // 
-            this.altaDeClientesToolStripMenuItem.Name = "altaDeClientesToolStripMenuItem";
-            this.altaDeClientesToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
-            this.altaDeClientesToolStripMenuItem.Text = "Alta de clientes";
-            // 
-            // bajaDeClientesToolStripMenuItem
-            // 
-            this.bajaDeClientesToolStripMenuItem.Name = "bajaDeClientesToolStripMenuItem";
-            this.bajaDeClientesToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
-            this.bajaDeClientesToolStripMenuItem.Text = "Baja de clientes";
-            // 
-            // consultasToolStripMenuItem3
-            // 
-            this.consultasToolStripMenuItem3.Name = "consultasToolStripMenuItem3";
-            this.consultasToolStripMenuItem3.Size = new System.Drawing.Size(196, 26);
-            this.consultasToolStripMenuItem3.Text = "Consultas";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            this.btnIngresar.Location = new System.Drawing.Point(202, 447);
+            this.btnIngresar.Name = "btnIngresar";
+            this.btnIngresar.Size = new System.Drawing.Size(75, 23);
+            this.btnIngresar.TabIndex = 0;
+            this.btnIngresar.Text = "Entrar";
+            this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.menuStrip1);
+            this.ClientSize = new System.Drawing.Size(336, 503);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.lblUser);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnIngresar);
+            this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Cross;
-            this.MainMenuStrip = this.menuStrip1;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Principal";
             this.Text = "TrumpetWare";
-            this.Load += new System.EventHandler(this.productoToolStripMenuItem_Click);
-            this.Leave += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,20 +113,12 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaDeProductoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bajaDeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem embajadorToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem altaDeClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bajaDeClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.Label lblUser;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnIngresar;
     }
 }
 

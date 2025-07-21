@@ -7998,7 +7998,7 @@ SELECT id_campana, fecha_inicio, fecha_fin, descuento_promocion FROM Marketing.C
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8381,7 +8381,7 @@ SELECT id_categoria, nombre FROM Categoria WHERE (id_categoria = @id_categoria)"
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8721,7 +8721,7 @@ SELECT id_cedis, nombre, direccion, geolocalizacion FROM Operaciones.CEDIS WHERE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9115,7 +9115,7 @@ SELECT id_cliente, nombre, telefono, direccion_geolocalizada FROM Comercial.Clie
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9517,7 +9517,7 @@ SELECT id_embajador, nombre, nivel, ventas, id_region FROM Comercial.Embajador W
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9946,7 +9946,7 @@ SELECT id_orden, fecha_orden, total_orden, estatus_pago, id_embajador FROM Comer
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10369,7 +10369,7 @@ SELECT id_pago_cliente, monto_pago, fecha_pago, id_pedido FROM Financiera.PagoCl
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10771,7 +10771,7 @@ SELECT id_pedido, fecha_pedido, total_pedido, estatus_pago, id_cliente FROM Come
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11204,7 +11204,7 @@ SELECT clave, nombre, descripcion, precio_publico, precio_embajador, costo_produ
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11613,7 +11613,7 @@ SELECT clave, nombre, descripcion, precio_publico, precio_embajador, costo_produ
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11891,7 +11891,7 @@ SELECT id_region, nombre, id_cedis FROM Operaciones.Region WHERE (id_region = @i
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12251,7 +12251,7 @@ SELECT id_temporada, fecha_inicio, fecha_fin FROM Temporada WHERE (id_temporada 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12573,7 +12573,7 @@ SELECT id_temporada, fecha_inicio, fecha_fin FROM Temporada WHERE (id_temporada 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12736,7 +12736,7 @@ SELECT id_temporada, fecha_inicio, fecha_fin FROM Temporada WHERE (id_temporada 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12899,7 +12899,7 @@ SELECT id_temporada, fecha_inicio, fecha_fin FROM Temporada WHERE (id_temporada 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -13062,7 +13062,7 @@ SELECT id_temporada, fecha_inicio, fecha_fin FROM Temporada WHERE (id_temporada 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -13225,7 +13225,7 @@ SELECT id_temporada, fecha_inicio, fecha_fin FROM Temporada WHERE (id_temporada 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.TrumpetWareConnectionString;
+            this._connection.ConnectionString = global::TrumpetWare.Properties.Settings.Default.ConexionBD;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

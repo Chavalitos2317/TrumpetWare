@@ -15,17 +15,27 @@ namespace TrumpetWare
         public Principal()
         {
             InitializeComponent();
-        }
+            this.txtPassword.PasswordChar = '*';
 
-        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
-
-        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+ 
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-            Alta_de_productos altaProducto = new Alta_de_productos();
-            altaProducto.ShowDialog();
+            string usuario = txtUsuario.Text.Trim();
+            string password = txtPassword.Text;
+
+            if (usuario == "admin" && password == "123")
+            {
+                this.Hide(); // Oculta el login
+                Catalogos catalogos = new Catalogos(); // Crea el nuevo formulario
+                catalogos.Show(); // Abre formulario de catálogos
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtPassword.Clear();
+                txtPassword.Focus();
+            }
         }
     }
 }
