@@ -26,7 +26,7 @@ namespace TrumpetWare.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=MisaPC;Database=TrumpetWare;User Id=pDos;Password=pDos;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=SEUGMIN-STAAA;Database=TrumpetWare;User Id=pDos;Password=pDos;")]
         public string ConexionBD {
             get {
                 return ((string)(this["ConexionBD"]));

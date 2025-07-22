@@ -310,7 +310,10 @@ namespace Libreria
             }
         }
 
+        private void panelGeneral_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
 

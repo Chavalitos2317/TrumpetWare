@@ -169,7 +169,6 @@ namespace TrumpetWare
         // Métodos de eventos de conversion
         private void DecimalAString(object sender, ConvertEventArgs cEA)
         {
-            // Poner formato de moneda
 
             // Verificar que el tipo deseado sea String
             if (cEA.DesiredType != typeof(String))
@@ -181,7 +180,7 @@ namespace TrumpetWare
 
         private void StringADecimal(object sender, ConvertEventArgs cEA)
         {
-            // Quitar formato de moneda
+            
 
             // Verificar que el tipo deseado sea decimal
             if (cEA.DesiredType != typeof(decimal))
@@ -338,6 +337,11 @@ namespace TrumpetWare
                     MessageBox.Show("Error al eliminar: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void panelGeneral_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
